@@ -1,13 +1,11 @@
 {
   "name": "@jbateson/eslint-config",
-  "description": "Personal eslint config, with dependencies",
+  "description": "My personal eslint config",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Joe Bateson <joe@joebateson.com>",
-  "files": [
-    "bin",
-    ".eslintrc"
-  ],
+  "main": "index.js",
+  "files": ["index.js"],
   "dependencies": {
     "babel-eslint": "9.x",
     "eslint": "5.x",
@@ -29,6 +27,12 @@
     "eslint",
     "eslint-config"
   ],
+  "devDependencies": {
+    "husky": "^1.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
@@ -37,8 +41,5 @@
     "hooks": {
       "pre-commit": "eslint --fix ."
     }
-  },
-  "devDependencies": {
-    "husky": "^1.1.2"
   }
 }
