@@ -1,0 +1,44 @@
+{
+  "name": "@jbateson/eslint-config",
+  "description": "Personal eslint config, with dependencies",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Joe Bateson <joe@joebateson.com>",
+  "files": [
+    "bin",
+    ".eslintrc"
+  ],
+  "dependencies": {
+    "babel-eslint": "9.x",
+    "eslint": "5.x",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-react-app": "^3.0.4",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "^0.0.0",
+    "prettier": "^1.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdb8/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint --fix ."
+    }
+  },
+  "devDependencies": {
+    "husky": "^1.1.2"
+  }
+}
