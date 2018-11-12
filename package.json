@@ -6,6 +6,9 @@
   "author": "Joe Bateson <joe@joebateson.com>",
   "main": "index.js",
   "files": ["index.js"],
+  "scripts": {
+    "test": "eslint --fix ."
+  },
   "dependencies": {
     "babel-eslint": "9.x",
     "eslint": "5.x",
@@ -17,6 +20,7 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "^0.0.0",
+    "lint-staged": "^8.0.4",
     "prettier": "^1.14.3"
   },
   "repository": {
@@ -39,7 +43,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint --fix ."
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
   }
 }
