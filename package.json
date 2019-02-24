@@ -5,9 +5,12 @@
   "license": "MIT",
   "author": "Joe Bateson <joe@joebateson.com>",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "eslint --fix ."
+    "test": "eslint --fix .",
+    "release": "semantic-release"
   },
   "dependencies": {
     "babel-eslint": "9.x",
@@ -32,7 +35,20 @@
     "eslint-config"
   ],
   "devDependencies": {
-    "husky": "^1.1.2"
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
+    "husky": "^1.1.2",
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
   },
   "publishConfig": {
     "access": "public"
@@ -47,6 +63,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
