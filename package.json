@@ -9,7 +9,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "eslint --fix .",
+    "test": "eslint --fix . && jest",
     "release": "semantic-release"
   },
   "peerDependencies": {
@@ -45,10 +45,15 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x",
+    "cpy": "^7.0.1",
     "husky": "^1.3.1",
+    "install-local": "^1.0.0",
+    "jest": "^24.1.0",
     "lint-staged": "^8.1.4",
     "prettier": "^1.16.4",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.3",
+    "shelljs": "^0.8.3",
+    "tmp": "^0.0.33"
   },
   "release": {
     "extends": "@jbateson/semantic-release-config"
