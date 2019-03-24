@@ -13,7 +13,7 @@ And make sure you install the required peer dependencies required for this confi
 
 ```
 $ yarn global add install-peerdeps
-$ install-peerdeps @jbateson/eslint-config
+$ install-peerdeps --dev @jbateson/eslint-config
 ```
 
 In .eslintrc:
