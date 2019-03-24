@@ -9,9 +9,16 @@
 
 `yarn add -D @jbateson/eslint-config`
 
-In .eslintrc:
+And make sure you install the required peer dependencies required for this config:
 
 ```
+$ yarn global add install-peerdeps
+$ install-peerdeps @jbateson/eslint-config
+```
+
+In .eslintrc:
+
+```json
 {
     "extends": "@jbateson"
 }
