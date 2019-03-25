@@ -53,7 +53,7 @@
     "prettier": "^1.16.4",
     "semantic-release": "^15.13.3",
     "shelljs": "^0.8.3",
-    "tmp": "^0.0.33"
+    "tmp": "^0.1.0"
   },
   "release": {
     "extends": "@jbateson/semantic-release-config"
