@@ -51,7 +51,7 @@
     "jest": "^24.1.0",
     "lint-staged": "^8.1.4",
     "prettier": "^1.16.4",
-    "semantic-release": "^15.13.3",
+    "semantic-release": "^15.13.17",
     "shelljs": "^0.8.3",
     "tmp": "^0.1.0"
   },
