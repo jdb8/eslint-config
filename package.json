@@ -36,7 +36,7 @@
   "devDependencies": {
     "@jbateson/semantic-release-config": "^1.0.0",
     "babel-eslint": "9.x",
-    "eslint": "5.x",
+    "eslint": "^6.0.1",
     "eslint-config-prettier": "^4.0.0",
     "eslint-config-react-app": "^3.0.8",
     "eslint-plugin-flowtype": "^2.x",
