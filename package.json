@@ -9,7 +9,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "eslint --fix . && jest",
+    "test": "eslint . && jest",
     "release": "semantic-release"
   },
   "peerDependencies": {
