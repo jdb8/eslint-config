@@ -1,9 +1,15 @@
+const fs = require('fs');
 const path = require('path');
 
 const cpy = require('cpy');
 const shell = require('shelljs');
 const tmp = require('tmp');
 const execute = require('install-local').execute;
+
+const BAD_JS = `
+var foo = 1;
+    console.log('hello!')
+`;
 
 it('installs with peer deps and lints', done => {
   tmp.dir({ unsafeCleanup: true }, async function _tempDirCreated(
@@ -37,6 +43,11 @@ it('installs with peer deps and lints', done => {
     // This is a run script defined in our fixture's package.json
     const lintResult = shell.exec('npm run lint');
     expect(lintResult.code).toEqual(0);
+
+    // Now write a bad file
+    fs.writeFileSync(path.resolve(dir, 'my_bad_file.js'), BAD_JS);
+    const lintResult2 = shell.exec('npm run lint');
+    expect(lintResult2.code).toBeGreaterThan(0);
 
     // Manual cleanup
     cleanupCallback();
