@@ -13,17 +13,17 @@
     "release": "semantic-release"
   },
   "peerDependencies": {
-    "babel-eslint": "9.x",
-    "eslint": "5.x",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-config-react-app": "^3.0.8",
-    "eslint-plugin-flowtype": "^2.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "7.x",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "1.x",
-    "prettier": "^1.16.4"
+    "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
@@ -33,17 +33,21 @@
     "eslint",
     "eslint-config"
   ],
+  "dependencies": {
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-react-app": "^5.0.1"
+  },
   "devDependencies": {
     "@jbateson/semantic-release-config": "^1.0.0",
-    "babel-eslint": "9.x",
-    "eslint": "5.x",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-config-react-app": "^3.0.8",
-    "eslint-plugin-flowtype": "^2.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "7.x",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-flowtype": "3.x",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "1.x",
     "cpy": "^7.0.1",
     "husky": "^3.0.5",
