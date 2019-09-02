@@ -2,7 +2,7 @@
 
 [![npm (scoped)](https://img.shields.io/npm/v/@jbateson/eslint-config.svg)](https://www.npmjs.com/package/@jbateson/eslint-config)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Dependabot enabled](https://badgen.net/dependabot/jdb8/eslint-config/?icon=dependabot)](#)
-![Actions Status](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/badge/jdb8/eslint-config)
+[![Actions Status](https://github.com/jdb8/eslint-config/workflows/main/badge.svg)](https://github.com/jdb8/eslint-config/actions)
 
 
 
