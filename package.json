@@ -22,7 +22,7 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "1.x",
+    "eslint-plugin-react-hooks": "2.x",
     "prettier": "^1.16.4"
   },
   "repository": {
@@ -44,7 +44,7 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "1.x",
+    "eslint-plugin-react-hooks": "2.x",
     "cpy": "^7.0.1",
     "husky": "^3.0.5",
     "install-local": "^1.0.0",
