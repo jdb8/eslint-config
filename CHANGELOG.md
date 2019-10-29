@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/jdb8/eslint-config/compare/v2.0.0...v2.1.0) (2019-10-29)
+
+
+### Features
+
+* **deps:** upgrade deps and remove unnecessary react hooks rules ([#44](https://github.com/jdb8/eslint-config/issues/44)) ([04d55c2](https://github.com/jdb8/eslint-config/commit/04d55c272c32708ad953710df382c906e6e3dc41))
+
 # [2.0.0](https://github.com/jdb8/eslint-config/compare/v1.1.1...v2.0.0) (2019-09-02)
 
 
