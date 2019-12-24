@@ -6,21 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Install
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+    - uses: actions/setup-node@v1
       with:
-        entrypoint: yarn
-        args: install
-    - name: Test
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
-      with:
-        entrypoint: yarn
-        args: test
-    - name: Release
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+        node-version: '12.x'
+    - run: yarn install
+    - run: yarn test
+    - run: yarn run release
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      with:
-        entrypoint: yarn
-        args: run release
