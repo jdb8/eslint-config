@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/jdb8/eslint-config/compare/v2.1.0...v2.2.0) (2019-12-24)
+
+
+### Features
+
+* **rule:** enable prefer-const as warning ([#46](https://github.com/jdb8/eslint-config/issues/46)) ([f5a4ffd](https://github.com/jdb8/eslint-config/commit/f5a4ffd7648360644d0192ff9ef067af23df5369))
+
 # [2.1.0](https://github.com/jdb8/eslint-config/compare/v2.0.0...v2.1.0) (2019-10-29)
 
 
