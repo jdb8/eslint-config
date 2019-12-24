@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/jdb8/eslint-config/compare/v2.2.0...v2.3.0) (2019-12-24)
+
+
+### Features
+
+* **rule:** enable no-var as warning ([#48](https://github.com/jdb8/eslint-config/issues/48)) ([6600f35](https://github.com/jdb8/eslint-config/commit/6600f355d77fe513f820484ebbdbdeeb7a434115))
+
 # [2.2.0](https://github.com/jdb8/eslint-config/compare/v2.1.0...v2.2.0) (2019-12-24)
 
 
