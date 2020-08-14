@@ -40,7 +40,7 @@
   "devDependencies": {
     "@jbateson/semantic-release-config": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
-    "@typescript-eslint/parser": "^2.6.0",
+    "@typescript-eslint/parser": "^3.9.0",
     "babel-eslint": "^10.0.3",
     "cpy": "^7.0.1",
     "eslint": "^6.6.0",
